@@ -1,6 +1,7 @@
 services:
     apache:
         subpath: true
+        subpath_map: true
         image: tugboatqa/httpd
         commands:
             init:
